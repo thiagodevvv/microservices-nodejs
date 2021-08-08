@@ -54,9 +54,6 @@ function runBigProcess () {
     })
 }
 
-//fila de processos.
-
-
 
 http.createServer(async (req,res) => {
     if(req.url === '/nuke') {
